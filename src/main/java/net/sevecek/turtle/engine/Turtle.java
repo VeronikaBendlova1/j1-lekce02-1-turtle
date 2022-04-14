@@ -42,7 +42,7 @@ public class Turtle {
         }
     }
 
-    public double getX() {
+    public double getX(double v) {
         testPause();
         return x;
     }
@@ -52,7 +52,7 @@ public class Turtle {
         setLocation(newValue, y);
     }
 
-    public double getY() {
+    public double getY(double v) {
         testPause();
         return y;
     }
