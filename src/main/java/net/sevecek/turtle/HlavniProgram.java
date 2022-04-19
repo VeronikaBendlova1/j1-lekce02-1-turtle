@@ -227,12 +227,110 @@ public class HlavniProgram {
 
         zofka.penDown();
         zofka.setLocation(x, y);
+
+        //V
+
+        zofka.setLocation(320, 60);
+        zofka.turnRight(140);
+        zofka.turnLeft(20);
+        zofka.penDown();
+        zofka.move(35);
+        zofka.turnRight(180);
+        zofka.move(35);
+        zofka.turnLeft(130);
+        zofka.move(40);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(35);
+        zofka.turnLeft(120);
+        zofka.move(20);
+
+        zofka.penUp();
+        zofka.move(25);
+
+        zofka.penDown(); // E
+        zofka.move(15);
+        zofka.turnRight(180);
+        zofka.move(15);
         zofka.turnRight(90);
+        zofka.move(15);
+        zofka.turnRight(90);
+        zofka.move(15);
+        zofka.turnRight(180);
+        zofka.move(15);
+        zofka.turnRight(90);
+        zofka.move(15);
+        zofka.turnRight(90);
+        zofka.move(15);
+
+        zofka.penUp();
+        zofka.move(25);
+        zofka.turnRight(90);
+        zofka.move(28);
+        zofka.turnRight(180);
+
+        //R
+        zofka.penDown();
+        //zofka.turnRight(90);
+        zofka.move(25);
+        zofka.turnRight(45);
+
+        for (int i = 0; i < 20; i++) {
+            zofka.turnRight(10);
+            zofka.move(2);
+        }
+        zofka.turnLeft(90);
+        zofka.move(25);
+
+        zofka.penUp();
+        zofka.setLocation(470, 30);
+        zofka.move(20);
+
+        zofka.penDown();
+
+        for (int i = 0; i < 30; i++) {
+            zofka.turnRight(10);
+            zofka.move(3);}
+
+        zofka.penUp();
+
+        zofka.setLocation(500, 30);
+
+        zofka.move(30);
+        zofka.penDown();
+        zofka.turnRight(60);
+        zofka.move(40);
+        zofka.turnLeft(180);
+        zofka.move(20);
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.turnLeft(180);
+        zofka.move(20);
+        zofka.turnLeft(90);
+        zofka.move(20);
+
+        zofka.turnLeft(130);
+        zofka.move(40);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
     }
+
+
+
+
 
 }
